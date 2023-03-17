@@ -1,8 +1,8 @@
-name: Install and test graphql-prom-metrics
+name: Install and check graphql-server-base
 on: [push]
 
 jobs:
-  graphqlprommetrics:
+  graphqlserverbase:
 
     name: Check
 

@@ -2,8 +2,8 @@
   "name": "@sgohlke/graphql-server-base",
   "version": "1.0.0",
   "description": "Base package for @dreamit/graphql-server",
-  "main": "build/src/index.js",
-  "types": "build/src/index.d.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
     "check": "tsc --noEmit --pretty",
