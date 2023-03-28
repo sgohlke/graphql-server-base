@@ -17,3 +17,4 @@ export * from './request/GraphQLRequestInfo'
 
 export * from './response/GraphQLExecutionResult'
 export * from './response/GraphQLServerResponse'
+export * from './response/ResponseParameters'
