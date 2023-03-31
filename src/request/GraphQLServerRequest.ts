@@ -1,4 +1,5 @@
 import { IncomingHttpHeaders } from 'node:http'
+import { GraphQLRequestInfo } from '..'
 
 /**
  * Interface for incoming server requests.
@@ -10,4 +11,9 @@ export interface GraphQLServerRequest {
     url?: string,
     body?: unknown,
     method?: string;
+}
+
+export function isGraphQLServerRequest(request: GraphQLServerRequest | GraphQLRequestInfo) 
+    : request is GraphQLServerRequest {
+    return 'headers' in request && 'method' in request
 }
