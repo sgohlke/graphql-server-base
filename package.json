@@ -1,6 +1,6 @@
 {
   "name": "@sgohlke/graphql-server-base",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Base package for @dreamit/graphql-server",
   "main": "build/index.js",
   "types": "build/index.d.ts",
