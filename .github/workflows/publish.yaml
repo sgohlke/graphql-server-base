@@ -19,6 +19,6 @@ jobs:
       - run: npm i
       - run: npm run lint
       - run: npm run check
-      - run: npm publish --access public
+      - run: npm deprecate @sgohlke/graphql-server-base "Use @dreamit/graphql-server-base instead"
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_TOKEN}}
